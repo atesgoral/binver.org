@@ -1,0 +1,17 @@
+title: Binary Versioning
+descriptions: A simple set of rules and requirements that dictate how version numbers are assigned and incremented
+languages:
+  en: English
+versions:
+  - 1.0.0
+current_version: 1.0.0
+author: Ates Goral
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+defaults:
+  - scope:
+      path: ''
+    values:
+      layout: default

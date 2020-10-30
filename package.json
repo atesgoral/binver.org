@@ -1,0 +1,37 @@
+{
+  "name": "binver.org",
+  "version": "0.0.1",
+  "description": "Website for BinVer specification https://binver.org",
+  "main": "scripts/collect.js",
+  "scripts": {
+    "collect": "node scripts/collect.js",
+    "lint": "remark -qf lang spec index.md",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atesgoral/binver.org.git"
+  },
+  "keywords": [
+    "binver",
+    "spec",
+    "version",
+    "binary",
+    "version"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atesgoral/binver.org/issues"
+  },
+  "homepage": "https://github.com/atesgoral/binver.org#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "js-yaml": "^3.14.0",
+    "remark-cli": "^8.0.0",
+    "remark-frontmatter": "^2.0.0",
+    "remark-lint-mdash-style": "^1.1.1",
+    "remark-preset-lint-node": "^1.16.0",
+    "semver": "^7.3.2"
+  }
+}
