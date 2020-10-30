@@ -109,7 +109,7 @@ limited to exactly 8 very intentional releases? Example scenario:
 
 1. You just had an idea. Cut 0.0.0.
 1. Wrote some code. Only some parts are working, but hey. Cut 0.0.1.
-1. Ooh! Some actual features. It resmebles what was in your initial idea. Cut 0.1.0.
+1. Ooh! Some actual features. Cut 0.1.0.
 1. LOL. Stupid typo. Fix it. Cut 0.1.1.
 1. Feature complete. Cut 1.0.0. Party.
 1. Fix the bug. Cut 1.0.1.
